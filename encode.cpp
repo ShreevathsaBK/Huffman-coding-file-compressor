@@ -12,6 +12,5 @@ int main(int argc, char** argv){
     Node* root = huff.build_tree();
     huff.write_header(root);
     huff.encode();
-    
     return 0;
 }
