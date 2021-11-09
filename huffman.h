@@ -45,5 +45,4 @@ class Huffman{
 		string read_encoding();
 		Node* tree_from_header(string&);
 		void decode(Node*);
-		
 };
